@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+#ipassword,#iname,#iaddress,#iphone,#iemail{
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 2px solid skyblue;
+  border-radius: 0px;
+}
+
+.con.form-control{
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 2px solid skyblue;
+  border-radius: 0px;
+}
+
+
+.main{
+  min-height: 80vh;
+}
+
+footer{
+  position:sticky;
+  top: 100%;
+}
+#btn1{
+  border-radius: 0%;
+}
+/* #iname,#ipassword{
+  border-style: none;
+  border-bottom: 5px solid rgb(49, 162, 248);
+ 
+} */
+
+/* carousel  */
+#carousel .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 75vh;
+  
+  overflow: hidden;
+}
+
